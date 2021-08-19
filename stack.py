@@ -1,9 +1,4 @@
-#Taget från: https://www.geeksforgeeks.org/stack-in-python/
 
-
-# Python program to demonstrate
-# stack implementation using a linked list.
-# node class
 class Node:
     def __init__(self, value):
         self.value = value
@@ -12,9 +7,7 @@ class Node:
 
 class Stack:
 
-    # Initializing a stack.
-    # Use a dummy node, which is
-    # easier for handling edge cases.
+  
     def __init__(self):
         self.head = Node("head")
         self.size = 0
