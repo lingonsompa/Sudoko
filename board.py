@@ -1,7 +1,7 @@
 import copy
 import math
 
-
+#hej
 class Board:
     def __init__(self, board=[[1,2,3,5],[5,6,7,8],[9,10,11,12],[13,14,15,0]]):
         self.board = board
